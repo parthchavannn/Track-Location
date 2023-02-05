@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_29b663720460680b790ad76538d13daf {
+                #map_d6d0ca481c807119b55374896690ca98 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_29b663720460680b790ad76538d13daf" ></div>
+            <div class="folium-map" id="map_d6d0ca481c807119b55374896690ca98" ></div>
         
 </body>
 <script>
     
     
-            var map_29b663720460680b790ad76538d13daf = L.map(
-                "map_29b663720460680b790ad76538d13daf",
+            var map_d6d0ca481c807119b55374896690ca98 = L.map(
+                "map_d6d0ca481c807119b55374896690ca98",
                 {
                     center: [22.3511148, 78.6677428],
                     crs: L.CRS.EPSG3857,
@@ -60,10 +60,31 @@
 
         
     
-            var tile_layer_43da3c38cb97442cf4c8d85a5f76298b = L.tileLayer(
+            var tile_layer_940482cf7e56974917658db5aec4b58e = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_29b663720460680b790ad76538d13daf);
+            ).addTo(map_d6d0ca481c807119b55374896690ca98);
         
+    
+            var marker_7b4d1dc4e4662cfebd52e5231663a44f = L.marker(
+                [22.3511148, 78.6677428],
+                {}
+            ).addTo(map_d6d0ca481c807119b55374896690ca98);
+        
+    
+        var popup_851e18482233193308a410b5bead61d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea0cfc3957b4e1c27f38e51be76ab1f9 = $(`<div id="html_ea0cfc3957b4e1c27f38e51be76ab1f9" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+                popup_851e18482233193308a410b5bead61d7.setContent(html_ea0cfc3957b4e1c27f38e51be76ab1f9);
+            
+        
+
+        marker_7b4d1dc4e4662cfebd52e5231663a44f.bindPopup(popup_851e18482233193308a410b5bead61d7)
+        ;
+
+        
+    
 </script>
 </html>
